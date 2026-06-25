@@ -13,7 +13,6 @@ I am a Final-Year B.Tech Computer Science student with a strong interest in AI-p
 * AI & Machine Learning Enthusiast
 * Full-Stack Web Development
 * React, Flask, Python Development
-* GATE Qualified
 
 ---
 
