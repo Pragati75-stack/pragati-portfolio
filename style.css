@@ -1,5 +1,4 @@
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
     --navy: #0B1426;
@@ -367,3 +366,114 @@
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; }
   }
+/* Reveal Animation */
+
+section,
+.project-card,
+.skill-group,
+.research-card,
+.cert-card{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:.8s;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+/* Active Navbar */
+
+.nav-links a.active{
+
+color:var(--teal);
+
+}
+
+
+/* Progress Bar */
+
+.progress-bar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:4px;
+
+background:linear-gradient(90deg,#14B8A6,#06B6D4);
+
+width:0;
+
+z-index:99999;
+
+}
+
+
+/* Back to top */
+
+.top-btn{
+
+position:fixed;
+
+bottom:40px;
+
+right:35px;
+
+width:50px;
+
+height:50px;
+
+border:none;
+
+border-radius:50%;
+
+font-size:22px;
+
+cursor:pointer;
+
+background:#14B8A6;
+
+color:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+opacity:0;
+
+pointer-events:none;
+
+transition:.3s;
+
+box-shadow:0 15px 30px rgba(0,0,0,.3);
+
+}
+
+.show-top{
+
+opacity:1;
+
+pointer-events:auto;
+
+}
+
+.top-btn:hover{
+
+transform:translateY(-6px);
+
+}
+ 
