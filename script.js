@@ -27,10 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    // =============================
+    
     // Active Navigation
-    // =============================
-
+    
     const sections=document.querySelectorAll("section");
     const navLinks=document.querySelectorAll(".nav-links a");
 
@@ -67,9 +66,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    // ==========================
+    
     // Scroll Progress Bar
-    // ==========================
+   
 
     const progress=document.createElement("div");
 
@@ -91,9 +90,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    // ===========================
+   
     // Back To Top
-    // ===========================
+   
 
     const topBtn=document.createElement("button");
 
